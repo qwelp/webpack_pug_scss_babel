@@ -1,0 +1,14 @@
+//- const footerMenu = require('./app/data.json').footerMenu
+
+doctype html
+html(lang="ru")
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    title
+      block title
+  body
+    .page
+      include ../includes/header
+      block main
+      include ../includes/footer

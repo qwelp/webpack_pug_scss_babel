@@ -1,4 +1,4 @@
-# PresenteCorp
+# NameSite
 
 ## Подключить json
 - const footerMenu = require('./app/data.json').footerMenu
